@@ -51,7 +51,7 @@ noButton.addEventListener("click", function () {
     if (clickCount === 2) mainImage.src = "images/think.gif";   // 思考
     if (clickCount === 3) mainImage.src = "images/angry.gif";   // 生气
     if (clickCount === 4) mainImage.src = "images/crying1.gif";  // 哭
-    if (clickCount === 5) mainImage.src = "images/crying2.gif";  // 之后一直是哭
+    if (clickCount === 5) mainImage.src = "images/crying2.jpg";  // 之后一直是哭
     if (clickCount === 6) mainImage.src = "images/crying3.gif";  // 之后一直是哭
     if (clickCount === 7) mainImage.src = "images/crying4.gif";  // 之后一直是哭
     if (clickCount === 8) mainImage.src = "images/crying5.gif";  // 之后一直是哭
