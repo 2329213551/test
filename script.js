@@ -7,19 +7,19 @@ let clickCount = 0;  // 记录点击 No 的次数
 
 // No 按钮的文字变化
 const noTexts = [
-    "？你认真的吗…", 
-    "要不再想想？", 
-    "不许选这个！ ", 
-    "我会很伤心…", 
-    "别嘛~", 
+    "？你认真的吗…",
+    "要不再想想？",
+    "不许选这个！ ",
+    "我会很伤心…",
+    "别嘛~",
     "我不要！！！",
-    "不可以的:(",  
-    "不行，狗东西:(",
+    "不可以的:(",
+    "不行！:(",
     "啦啦啦~啦啦啦~"
 ];
 
 // No 按钮点击事件
-noButton.addEventListener("click", function() {
+noButton.addEventListener("click", function () {
     clickCount++;
 
     // 第十次点击时让按钮消失
@@ -59,7 +59,7 @@ noButton.addEventListener("click", function() {
 });
 
 // Yes 按钮点击后，进入表白成功页面
-yesButton.addEventListener("click", function() {
+yesButton.addEventListener("click", function () {
     document.body.innerHTML = `
         <div class="yes-screen">
             <h1 class="yes-text">!!!我可是超级爱你的呦!! ( >᎑<)♡︎ᐝ</h1>
